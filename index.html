@@ -9,7 +9,7 @@
 </head>
 <body>
   <h1>Tic Tac Toe</h1>
-  <form action="javascript: initPlayers(this)" class="form">
+  <form action="javascript: initPlayers(this)" class="form" id="form1">
     <div class="field">
       <label for="player1">
         Player 1 name:
@@ -24,7 +24,7 @@
     </div>
     
     <div class="field">
-      <button class="btn">Start</button>
+      <button class="btn" id="fsub">Start</button>
     </div>
   </form>
 
@@ -37,15 +37,15 @@
         <button id="reset-btn" class="btn">Reset</button>
       </div>
     </div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
-    <div class="cell"></div>
+    <div class="cell" id="cell-1"></div>
+    <div class="cell" id="cell-2"></div>
+    <div class="cell" id="cell-3"></div>
+    <div class="cell" id="cell-4"></div>
+    <div class="cell" id="cell-5"></div>
+    <div class="cell" id="cell-6"></div>
+    <div class="cell" id="cell-7"></div>
+    <div class="cell" id="cell-8"></div>
+    <div class="cell" id="cell-9"></div>
   </div>
 
   <script src="script/script.js"></script>

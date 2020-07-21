@@ -64,7 +64,6 @@ const gameController = (() => {
 })();
 
 
-// eslint-disable-next-line no-unused-vars
 const initPlayers = (form) => {
   const player1Obj = Player(form.player1.value);
   const player2Obj = Player(form.player2.value);
@@ -83,3 +82,5 @@ const initPlayers = (form) => {
 
   gameController.run(player1Obj, player2Obj);
 };
+
+module.exports = initPlayers;

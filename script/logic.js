@@ -36,3 +36,4 @@ const game = (() => {
     isDraw,
   };
 })();
+module.exports = game;
